@@ -48,9 +48,7 @@ const Navbar = () => {
         </div>
         {/*button section*/}
         <div className="">
-          <button className="text-sm lg:text-base border-black px-4 py2 border-[1px] shadow-[5px_5px_0px_0px]">
-            Try For Free
-          </button>
+          <button className="primary-btn">Try For Free</button>
         </div>
       </div>
     </>
