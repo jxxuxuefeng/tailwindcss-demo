@@ -33,7 +33,9 @@ const Testimonial = () => {
       <div className=" py-14">
         {/*header section*/}
         <div className="space-y-5 text-center max-w-[550px] mx-auto mb-8">
-          <h1 className="text-3xl font-bold">Words from our coustomers</h1>
+          <h1 className="text-3xl font-bold font-serif">
+            Words from our coustomers
+          </h1>
           <p className="text-gray-500 text-sm max-w-[350px] mx-auto">
             Bring your dream home to life with one-on-one design help & hand
             picked products
