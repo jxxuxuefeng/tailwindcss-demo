@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar/Navbar.jsx";
 import Hero from "./components/Hero/Hero.jsx";
 import Brands from "./components/Brands/Brands.jsx";
 import Services from "./components/Services/Services.jsx";
+import Banner from "./components/Banner/Banner.jsx";
+import Banner2 from "./components/Banner/Banner2.jsx";
 
 const App = () => {
   return (
@@ -11,6 +13,8 @@ const App = () => {
       <Hero />
       <Brands />
       <Services />
+      <Banner />
+      <Banner2 />
     </main>
   );
 };
