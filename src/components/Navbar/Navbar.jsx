@@ -1,6 +1,7 @@
 // 第三方
 import React from "react";
 import Logo from "../../assets/Logo.png";
+import { motion } from "framer-motion";
 
 // 自定义
 const navLinks = [
@@ -28,7 +29,12 @@ const navLinks = [
 const Navbar = () => {
   return (
     <>
-      <div className="container py-4 flex justify-between items-center">
+      <motion.div
+        initial={{ y: -100 }}
+        animate={{ y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="container py-4 flex justify-between items-center"
+      >
         {/*logo section*/}
         <div className="flex items-center gap-3">
           <img src={Logo} alt="logo" className="w-16" />
@@ -50,7 +56,7 @@ const Navbar = () => {
         <div className="">
           <button className="primary-btn">Try For Free</button>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };
