@@ -7,6 +7,7 @@ import Banner from "./components/Banner/Banner.jsx";
 import Banner2 from "./components/Banner/Banner2.jsx";
 import Testimonial from "./components/Testimonial/Testimonial.jsx";
 import Newsletter from "./components/Newsletter/Newsletter.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Banner2 />
       <Testimonial />
       <Newsletter />
+      <Footer />
     </main>
   );
 };
