@@ -5,6 +5,7 @@ import Brands from "./components/Brands/Brands.jsx";
 import Services from "./components/Services/Services.jsx";
 import Banner from "./components/Banner/Banner.jsx";
 import Banner2 from "./components/Banner/Banner2.jsx";
+import Testimonial from "./components/Testimonial/Testimonial.jsx";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Services />
       <Banner />
       <Banner2 />
+      <Testimonial />
     </main>
   );
 };
